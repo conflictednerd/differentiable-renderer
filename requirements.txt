@@ -1,0 +1,6 @@
+jax[cuda]
+optax
+torch
+Pillow
+tqdm
+numpy<2.0.0
