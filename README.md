@@ -100,6 +100,7 @@ This project is a starting point, and there are many ways it could be extended:
 -   **PyTorch Performance**: The PyTorch implementation can probably be accelerated by proper compilation.
 -   **Improved Benchmarking**: The benchmark could be made more robust by tuning hyperparameters (softness of the renderer, learning rate, number of steps), testing different optimizers, or running multiple trials.
 -   **Perceptual Loss Functions**: Instead of MSE on RGB values, using a perceptual loss (like LPIPS) or calculating loss in a different color space (like HSV) could lead to visually more appealing results. You can even connect it to a pretrained image classifier.
+-   **Bottom-up Evolution**: In the benchmark task, instead of fixing the number of circles from the start we can selectively add them in batches and in "appropriate" positions and then refine them with optimization. This could lead to more accurate and interesting reconstructions.
 
 ## Credits
 
