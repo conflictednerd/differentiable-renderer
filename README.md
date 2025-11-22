@@ -67,7 +67,7 @@ See more of the results in the `benchmark_outputs` directory.
 To get started, clone the repository and install the required dependencies.
 
 ```bash
-git clone https://github.com/your-username/differentiable-renderer.git
+git clone https://github.com/conflictednerd/differentiable-renderer.git
 cd differentiable-renderer
 pip install -r requirements.txt
 ```
